@@ -1,0 +1,58 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+*.exe
+*.nupkg
+project.lock.json
+*.nuget.props
+*.nuget.targets
+*.nuget.dgspec.json
+project.assets.json
+
+## IDE
+.vs/
+.vscode/
+*.swp
+*.idea/
+*.sublime-*
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+## Node / React / Vite
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.local
+.env
+.env.*
+!.env.example
+
+## npm
+npmcache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+## Build outputs
+build/
+out/
+*.tsbuildinfo
+TestResults/
+Tests/Results/
+
+## Secrets
+appsettings.Development.json

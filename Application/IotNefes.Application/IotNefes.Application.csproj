@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Riok.Mapperly" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IotNefes.Abstractions\IotNefes.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Infastructure\IotNefes.Common\IotNefes.Common.csproj" />
+    <ProjectReference Include="..\..\Domain\IotNefes.Domain\IotNefes.Domain.csproj" />
+    <ProjectReference Include="..\..\Infastructure\IotNefes.Infastructure\IotNefes.Infastructure.csproj" />
+  </ItemGroup>
+
+</Project>

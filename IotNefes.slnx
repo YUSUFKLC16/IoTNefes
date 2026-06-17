@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Application/">
+    <Project Path="Application/IotNefes.Abstractions/IotNefes.Abstractions.csproj" />
+    <Project Path="Application/IotNefes.Application/IotNefes.Application.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="Domain/IotNefes.Domain/IotNefes.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infastructure/">
+    <Project Path="Infastructure/IotNefes.Common/IotNefes.Common.csproj" />
+    <Project Path="Infastructure/IotNefes.Infastructure/IotNefes.Infastructure.csproj" />
+    <Project Path="Infastructure/IotNefes.Persistance/IotNefes.Persistance.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/IotNefes.WebApi/IotNefes.WebApi.csproj" />
+  </Folder>
+</Solution>

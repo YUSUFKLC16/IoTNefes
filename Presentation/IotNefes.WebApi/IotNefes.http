@@ -1,0 +1,6 @@
+@IotNefes_HostAddress = http://localhost:5062
+
+GET {{IotNefes_HostAddress}}/api/example
+Accept: application/json
+
+###
